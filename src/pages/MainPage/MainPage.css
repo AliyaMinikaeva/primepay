@@ -1,0 +1,106 @@
+.mainPage__container {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+.mainPage__header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mainPage__header ul {
+  list-style: none;
+  margin: 0;
+}
+.mainPage__header ul li {
+  display: inline;
+  margin-right: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #231656;
+}
+.mainPage__main-banner {
+  background-image: url("Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1029px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 59px;
+  border-radius: 30px;
+  position: relative;
+}
+.mainPage__main-banner h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 116.7%;
+  text-align: center;
+  color: #231656;
+}
+.mainPage__main-banner p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 160%;
+  text-align: center;
+  color: #231656;
+}
+.mainPage__main-action {
+  flex-wrap: wrap;
+  background: #F5F5F5;
+  border-radius: 30px;
+  height: 614px;
+}
+.mainPage__main-action-wrp {
+  display: flex;
+  gap: 55px;
+  justify-content: space-around;
+  padding-top: 196px;
+  margin-top: 65px;
+}
+.mainPage__main-action-item {
+  text-align: center;
+}
+.mainPage__main-action-item h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 133.2%;
+  color: #231656;
+}
+.mainPage__main-action-item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #4E4E4E;
+}
+.mainPage__main-phone {
+  margin: auto;
+  position: absolute;
+  width: 451px;
+  left: 0;
+  right: 0;
+  top: 700px;
+  z-index: 101;
+}
+
+.slide-fwd-tl {
+  animation: slide-fwd-tl 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-fwd-tl {
+  0% {
+    transform: translateZ(0) translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateZ(160px) translateY(-100px) translateX(-100px);
+  }
+}/*# sourceMappingURL=MainPage.css.map */
