@@ -1,17 +1,17 @@
 import './BlogPage.scss';
 import Header from '../../components/Header/Header';
-import NewsApi from '../../api/NewsApi';
-import icon1 from './icon1.png';
-import icon2 from './icon2.png';
-import icon3 from './icon3.png';
-import icon4 from './icon4.png';
+import News from '../../news/News';
+import icon1 from "../../assets/image/icon1.png";
+import icon2 from "../../assets/image/icon2.png";
+import icon3 from "../../assets/image/icon3.png";
+import icon4 from "../../assets/image/icon4.png";
 
 
 export default function MainPage() {
 
     return (
         <div className="container">
-            <Header></Header>
+            <Header>Login</Header>
             <div className="blog">
                 <h1 className="blog__header">BLOG</h1>
                 <img src={icon1} className="icon1 shake"/>
@@ -19,7 +19,7 @@ export default function MainPage() {
                 <img src={icon3} className="icon3 shake"/>
                 <img src={icon4} className="icon4 shake"/>
             </div>
-            <NewsApi></NewsApi>
+            <News></News>
         </div>
     )
 }

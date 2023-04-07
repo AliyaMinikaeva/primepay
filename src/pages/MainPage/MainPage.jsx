@@ -1,9 +1,9 @@
 import "./MainPage.scss";
-import account from "./account.png";
-import bank from "./bank.png";
-import money from "./money.png";
-import icon_money from "./icon_money.png";
-import icon_cart from "./icon_cart.png"
+import account from "../../assets/image/account.png";
+import bank from "../../assets/image/bank.png";
+import money from "../../assets/image/money.png";
+import icon_money from "../../assets/image/icon_money.png";
+import icon_cart from "../../assets/image/icon_cart.png";
 import MyComponent from "./MainPageAnimation";
 import Footer from "../../components/Footer/Footer";
 import Button from "../../components/Button/Button";
@@ -15,7 +15,7 @@ export default function MainPage() {
         <div>
             <div className="mainPage">
                 <div className="mainPage__container">
-                    <Header></Header>
+                    <Header>Login</Header>
                     <main className="mainPage__main">
                         <div className="mainPage__main-banner">
                             <h1 className="tracking-in-expand">

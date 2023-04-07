@@ -1,7 +1,7 @@
 import "./Footer.scss";
 import Button from "../Button/Button";
-import Logo from "../../components/Logo/Logo";
-import line from "./Line.png"
+import Logo from "../Logo/Logo";
+import line from "../../assets/image/Line.png";
 
 export default function Footer() {
 

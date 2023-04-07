@@ -14,7 +14,7 @@
     }
 
     &__color {
-        background-image: url("background.png");
+        background-image: url("../../assets/image/Background.png");
         border-radius: 30px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -43,7 +43,6 @@
 .footer__contacts {
     display: flex;
     justify-content: space-between;
-    height: 691px;
 }
 
 .footer__contacts-list {

@@ -1,0 +1,68 @@
+
+.form {
+    max-width: 460px;
+    width: 100%;
+    background-color: white;
+    padding: 7px 20px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__link {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 13px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #D58C51;
+        align-self: center;
+        margin-top: 10px;
+    }
+    &__header {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 38px;
+        text-transform: uppercase;
+        color: #161516;
+        margin: 15px 0 36px;
+    }
+    &__fieldset {
+        border: 0;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    &__input {
+        border: 1px solid #D58C51;
+        border-radius: 61px;
+        width: 100%;
+        padding: 18px;
+        box-sizing: border-box;
+        &::placeholder {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #161516;
+        }
+    }
+    &__btn-wrap {
+        max-width: 200px;
+        margin-top: 15px;
+        align-self: center;
+        width: 100%;
+    }
+}
+
+.form__btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+/* Добавляем стили для враппера */
+.wrp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

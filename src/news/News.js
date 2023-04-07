@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import './NewsApi.scss';
+import './News.scss';
 
 const baseURL = "https://newsdata.io/api/1/news?apikey=pub_199701eaa09ae57317b3151a023e45714dd22&" +
         "q=online%20payment ";
