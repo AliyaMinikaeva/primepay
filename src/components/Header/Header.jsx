@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 export default function Header({children}) {  
   const [isSignInOpen, setIsSignInOpen] = useState(true); // изначально открываем страницу signIn 
-  const [currentButtonText, setCurrentButtonText] = useState('Sign Up'); // текст текущей кнопки
+  const [setCurrentButtonText] = useState('Sign Up'); // текст текущей кнопки
 
   const handleClick = () => {
     setIsSignInOpen(!isSignInOpen);

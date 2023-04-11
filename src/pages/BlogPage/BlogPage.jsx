@@ -19,7 +19,7 @@ export default function MainPage() {
                 <img src={icon3} className="icon3 shake"/>
                 <img src={icon4} className="icon4 shake"/>
             </div>
-            <News></News>
+            <News/>
         </div>
     )
 }

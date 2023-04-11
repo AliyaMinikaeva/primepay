@@ -27,7 +27,6 @@ export default function Form({header, buttonText, linkText, linkTo}) {
   };
 
   const handleSubmit = () => {
-    // Handle form submission here
   };
 
   return  (
