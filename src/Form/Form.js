@@ -16,7 +16,7 @@ export default function Form({header, buttonText, linkText, linkTo}) {
     if (formDataString !== null) {
       setFormData(JSON.parse(formDataString));
     }
-  }, []);
+  }, []);  
 
   const handleInputChange = (event) => {
     const { id, value } = event.target;
@@ -27,23 +27,22 @@ export default function Form({header, buttonText, linkText, linkTo}) {
   };
 
   const handleSubmit = () => {
-    // Handle form submission here
   };
 
   return  (
       <div className="wrp">
         <Header>Profile</Header>
         <form className="form" onSubmit={handleSubmit}>
-          <h1 class="form__header" >{header}</h1>
-          <fieldset class="form__fieldset">
+          <h1 className="form__header" >{header}</h1>
+          <fieldset className="form__fieldset">
               <input id="login" placeholder="Логин" className="form__input" type="text"  value={formData.login}
             onInput={handleInputChange}></input>
           </fieldset>
-          <fieldset class="form__fieldset">
+          <fieldset className="form__fieldset">
           <input id="password" placeholder="Пароль" className="form__input" type="password" value={formData.password}
             onInput={handleInputChange}></input>
           </fieldset>
-          <div class="form__btn-wrap">
+          <div className="form__btn-wrap">
           <Button>{buttonText}</Button>
           </div>
           <Link to={linkTo} href="#" className="form__link">

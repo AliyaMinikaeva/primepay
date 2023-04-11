@@ -69,5 +69,5 @@ export default function MainPage() {
                         </main>
                     </div>
                 </div>
-                <Footer></Footer>
+                <Footer></Footer> 
             </div>)}
